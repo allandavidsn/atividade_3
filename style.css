@@ -1,0 +1,23 @@
+#bodyindex {
+    background-color: black;
+    color: white;
+}
+p {
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+#bodyformulario {
+    background-color: black;
+    border-width: 1px;
+    border: 2px solid red;
+    margin: auto;
+    color: white;
+}
+p {
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}

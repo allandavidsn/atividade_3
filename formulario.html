@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <link rel="StyleSheet" type="text/css" href="../style.css"/>
+</head>
+<body id="bodyformulario">
+    <h2> Formulário para ser Sócio Torcedor do São Paulo </h2>
+    <form>
+        <p> 
+            Nome: <input type="text" name="Nome" placeholder="Escreva seu nome" size="30" />
+        </p> 
+        <p> 
+            Sobrenome: <input type="text" name="Nome" placeholder="Escreva seu Sobrenome" size="30" />
+        </p> 
+        <p> 
+            Apelido para login: <input type="text" name="Nome" placeholder="Escolha um bom apelido" size="30" />
+        </p> 
+        <p>
+            Senha para login: <input type="password" placeholder="Digite sua senha com 8 caracteres" size="31" maxlength="8"/>
+        </p>
+        <p> 
+            Código de Sócio Torcedor: <input type="text" name="Nome" placeholder="Escreva seu Código Único" size="25" />
+        </p> 
+        <p> 
+            Telefone: <input type="tel" placeholder="(00) 0 0000-0000" size="28" maxlength="11"/>
+        </p> 
+        <p> 
+            Celular: <input type="tel" placeholder="(00) 0 0000-0000" size="28" maxlength="11"/>
+        </p> 
+        <p> 
+            Data de Nascimento: <input type="date"/> 
+        </p>
+        <p>
+            E-mail: <input type="email" placeholder="nome@email.com" size="30"/> 
+        </p>
+        <p>
+            Idade <input type="number" placeholder="Somente números"/> 
+        </p>
+        <p> 
+            Tamanho da camiseta: <input type="text" placeholder="(PP), (P), (M), (G), (GG), entre outros" size="30" maxlength="2"/>
+        </p> 
+        <p> 
+            Número Favorito para colocar na Camiseta: <input type="number" placeholder="Número nas costas" size="20" maxlength="3"/>
+        </p> 
+        Comentários:
+        <textarea rows="5" cols="10"> </textarea>
+        <p> Times de Futebol que torce além do São Paulo
+            <br />
+            <br />
+            <input type="radio" name="time" value="São Paulo"/> São Paulo <br /> <br />
+            <input type="radio" name="time" value="Palmeiras"/> Palmeiras <br /> <br />
+            <input type="radio" name="time" value="Corinthians"/> Corinthians <br /> <br />
+            <input type="radio" name="time" value="Santos"/> Santos <br /> <br />
+            <input type="radio" name="time" value="Santos"/> Somente São Paulo <br /> <br />
+        </p>
+        <p> Eu sou de
+            <select>
+                <option> </option> 
+                <option value="Goiás"> Goiás </option> 
+                <option value="Brasília"> Brasília </option> 
+                <option value="Minas Gerais"> Minas Gerais </option> 
+                <option value="São Paulo"> São Paulo </option> 
+                <option value="Paraná"> Paraná </option> 
+                <option value="Rio de Janeiro"> Rio de Janeiro </option> 
+            </select>
+        </p>
+        <input type="reset" name="reset" />
+        <input type="submit" name="submit"/>
+    </form>
+    <br />
+    <br />
+    <p>
+        <input type="checkbox" name="termos"/>
+        Você aceita fazer parte da Família São Paulo Futebol Clube?
+    </p>
+    <form>
+        <fieldset>
+            <legend> Ficha para Dependentes: </legend>
+            <label> Nome: <input type="text" /></label>
+            <br />
+            <br />
+            <label> Grau de Parentesco: <input type="text"/></label>
+            <br />
+            <br />
+            <label> CPF: <input type="text"/></label>
+            <br />
+            <br />
+            <label> Idade: <input type="text"/></label>
+            <br />
+            <br />
+            <label> Telefone: <input type="text"/></label>
+        </fieldset>
+    </form>
+</body>
+</html>
